@@ -164,3 +164,12 @@ h2 {
     background-image: url(img/Segue\ a\ gente.png);
     background-size: cover;
 }
+
+
+.img-baixo{
+    transition: 0.5s ease-in;
+}
+
+.img-baixo:hover{
+    transform: scale(1.2);
+}

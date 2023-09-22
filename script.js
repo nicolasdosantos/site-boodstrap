@@ -2,10 +2,15 @@ var combo = document.getElementById('mini-banner2');
 var lanche = document.getElementById("mini-banner")
 var containeLanche = document.getElementById("container-lanche")
 
-lanche.addEventListener("click", function(){ 
-    var containerCombo  = document.getElementById("container-combo")
+lanche.addEventListener("click", function () {
+    var containerCombo = document.getElementById("container-combo")
+    var containerLanche = document.getElementById("container-lanche-1")
+    var containerLanche2 = document.getElementById("container-lanche-2")
 
-    if(containerCombo.style.display === "none"){
+    containerLanche.style.display = "flex";
+    containerLanche2.style.display = "flex";
+
+    if (containerCombo.style.display === "none") {
         containerCombo.style.display = "flex";
     }
     else {
@@ -15,11 +20,14 @@ lanche.addEventListener("click", function(){
 
 
 
-combo.addEventListener("click", function(){ 
+combo.addEventListener("click", function () {
     var containerLanche = document.getElementById("container-lanche-1")
     var containerLanche2 = document.getElementById("container-lanche-2")
+    var containerCombo = document.getElementById("container-combo")
 
-    if(containerLanche.style.display === "none"){
+    containerCombo.style.display = "flex";
+
+    if (containerLanche.style.display === "none") {
         containerLanche.style.display = "flex";
         containerLanche2.style.display = "flex";
     }
