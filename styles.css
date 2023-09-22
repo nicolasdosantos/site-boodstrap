@@ -6,6 +6,10 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 a {
     text-decoration: none;
 }
@@ -31,7 +35,7 @@ header #h {
     font-family: 'Quicksand', sans-serif;
 }
 .banner{
-    height: 500px;
+    height: 339px;
 }
 .banner button {
     color: white;
@@ -153,4 +157,10 @@ h2 {
 
 #foto-baixo img{
     width: 100%;
+}
+
+
+#baixo-vermelho{
+    background-image: url(img/Segue\ a\ gente.png);
+    background-size: cover;
 }
